@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import HelloWorld from './HelloWorldApp';
 import Timer from './TimerApp';
+import TodoApp from './TodoApp';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 	<div> 
 		<HelloWorld name="Ritesh"/>
 		<Timer/>
+		<TodoApp/>
 	</div>,
 	document.getElementById('root')
 );
