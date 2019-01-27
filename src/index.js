@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import HelloWorld from './HelloWorldApp';
+import Timer from './TimerApp';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-	<HelloWorld name="Ritesh"/>, 
+	<div> 
+		<HelloWorld name="Ritesh"/>
+		<Timer/>
+	</div>,
 	document.getElementById('root')
 );
 
